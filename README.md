@@ -28,13 +28,13 @@ node js, npm, mongodb, mongoose , heroku
  
 ---
 ## Screenshots
-![screenshot-of-mainpage](./Assets/images/mainpage.png)
+![screenshot-of-mainpage](./assets/images/mainpage.png)
 
-![screenshot-of-image-one](./Assets/images/fitnessone.png)
+![screenshot-of-image-one](./assets/images/fitnessone.png)
 
-![screenshot-of-image-two](./Assets/images/fitnesstwo.png)
+![screenshot-of-image-two](./assets/images/fitnesstwo.png)
 
-![screenshot-of-image-three](./Assets/images/fitnessthree.png)
+![screenshot-of-image-three](./assets/images/fitnessthree.png)
 
 ---
 ## License
