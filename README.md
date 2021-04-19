@@ -4,7 +4,9 @@
 ![License](https://img.shields.io/badge/License-MIT-purple)
 
 ## Description 
-- 
+- This project- the workout_Tracker was created using Mongo database with a Mongoose schema and handle route with Express.
+- The application should be able to let the user create, view and track his/her daily activities.
+- The user should enbale to track the name, type of exercise, weight, sets, reps and duration od exercise, if the exercise is cardio the user should also able to track the distance that he/she travelled.
 
  ---
 # Table of Contents 
@@ -18,20 +20,21 @@
 ---
 
 ## Technologies
-node js, npm, mongodb, mongoose 
+node js, npm, mongodb, mongoose , heroku
 
 ---
 ## Links
  - Github: (https://github.com/joannejavillo/)
  
-
 ---
 ## Screenshots
-![screenshot-of-mainpage](./Assets/images/)
+![screenshot-of-mainpage](./Assets/images/mainpage.png)
 
-![screenshot-of-image-one](./Assets/images/)
+![screenshot-of-image-one](./Assets/images/fitnessone.png)
 
-![screenshot-of-image-one](./Assets/images/)
+![screenshot-of-image-two](./Assets/images/fitnesstwo.png)
+
+![screenshot-of-image-three](./Assets/images/fitnessthree.png)
 
 ---
 ## License
