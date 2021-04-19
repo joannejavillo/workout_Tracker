@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const path = require("path");
-const workOut = require("../models/workout.js");
+const Workout = require("../models/workout.js");
 
 router.get("/", async (req, res) => {
     try {
@@ -27,7 +27,7 @@ router.get("/stats", async (req, res) => {
 });
 
 router.get("/workouts", (req, res) => {
-    workOut.Workout.aggregate([
+    Workout.aggregate([
         {
             $addFields: {
                 totalDuration: { $sum: "$exercises.duration" },
@@ -43,7 +43,7 @@ router.get("/workouts", (req, res) => {
 });
 
 router.post("/api/workouts", ({ body }, res) => {
-    workOut.create(body)
+    Workout.create(body)
         .then(dbworkOut => {
             res.json(dbworkOut);
         })
@@ -76,5 +76,5 @@ router.put("/api/workouts/:id", (req, res) => {
         })
 })
 
-router.post
+
 module.exports = router;
