@@ -24,7 +24,7 @@ node js, npm, mongodb, mongoose , heroku
 
 ---
 ## Links
- - Github: (https://github.com/joannejavillo/)
+ - Github: (https://github.com/joannejavillo/workout_Tracker)
  
 ---
 ## Screenshots
